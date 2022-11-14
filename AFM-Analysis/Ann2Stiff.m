@@ -1,6 +1,6 @@
 function  [Ann, Stiff]=Ann2Stiff(Dat,Dat_H,FilNam)
 
-X=xlsread('/Users/erezaei/Desktop/SU-Research/AFM_Bruker/N2-AUG2018/Analysis-N2-20181008/Length_1.xlsx');
+X=xlsread('/Users/erezaei/Desktop/SU-Research/AFM_Bruker/Previous/dpy-5/Analysis-dpy5-20181008/Length_1.xlsx');
 %% Height image; values of XData and YData in imshow needs to be set manually
 % hFigH =figure;
 % %subplot(3,1,1)

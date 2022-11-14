@@ -1,10 +1,10 @@
 clc;clear;close all
-dpy=('/Users/erezaei/Desktop/SU-Research/AFM_Bruker/dpy-5/Analysis-dpy5-20181008/Mechanics-dpy-20190208/dpy-DMT');
+dpy=('/Users/erezaei/Desktop/SU-Research/AFM_Bruker/Previous/dpy-5/Analysis-dpy5-20181008/Mechanics-dpy-20190208/dpy-DMT');
 %dpy=('/Users/erezaei/Desktop/SU-Research/AFM_Bruker/rol-6OE/rolOE-Analysis/Mechanics-rolOE-20190728/rolOE-DMT/rolOE_DMT_Filtered');
-N2=('/Users/erezaei/Desktop/SU-Research/AFM_Bruker/N2-AUG2018/Analysis-N2-20181008/Mechanics-N2-20190208/N2-DMT');
-rol=('/Users/erezaei/Desktop/SU-Research/AFM_Bruker/rol-6/Analysis-rol6-20181008/Mechanics-rol-20190208/rol-DMT');
-
-for Strain=1:3
+N2=('/Users/erezaei/Desktop/SU-Research/AFM_Bruker/Previous/N2-AUG2018/Analysis-N2-20181008/Mechanics-N2-20190208/N2-DMT');
+rol=('/Users/erezaei/Desktop/SU-Research/AFM_Bruker/Previous/rol-6/Analysis-rol6-20181008/Mechanics-rol-20190208/rol-DMT');
+%
+for Strain=1:1
     if Strain==1
         raw_data=dpy;
         Genotype=raw_data(end-6:end-4);

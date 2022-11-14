@@ -1,15 +1,15 @@
 clc;clear;close all
 global Dat Dat_H FilNam
-dpy=('/Users/erezaei/Desktop/SU-Research/AFM_Bruker/dpy-5/Analysis-dpy5-20181008/Mechanics-dpy-20190208/dpy-DMT');
+dpy=('/Users/erezaei/Desktop/SU-Research/AFM_Bruker/Previous/dpy-5/Analysis-dpy5-20181008/Mechanics-dpy-20190208/dpy-DMT');
 %dpy=('/Users/erezaei/Desktop/SU-Research/AFM_Bruker/rol-6OE/rolOE-Analysis/Mechanics-rolOE-20190728/rolOE-DMT/rolOE_DMT_Filtered');
-N2=('/Users/erezaei/Desktop/SU-Research/AFM_Bruker/N2-AUG2018/Analysis-N2-20181008/Mechanics-N2-20190208/N2-DMT');
-rol=('/Users/erezaei/Desktop/SU-Research/AFM_Bruker/rol-6/Analysis-rol6-20181008/Mechanics-rol-20190208/rol-DMT');
+N2=('/Users/erezaei/Desktop/SU-Research/AFM_Bruker/Previous/N2-AUG2018/Analysis-N2-20181008/Mechanics-N2-20190208/N2-DMT');
+rol=('/Users/erezaei/Desktop/SU-Research/AFM_Bruker/Previous/rol-6/Analysis-rol6-20181008/Mechanics-rol-20190208/rol-DMT');
 %
-dpy_H=('/Users/erezaei/Desktop/SU-Research/AFM_Bruker/dpy-5/Analysis-dpy5-20181008/txt-files');%uigetdir;
+dpy_H=('/Users/erezaei/Desktop/SU-Research/AFM_Bruker/Previous/dpy-5/Analysis-dpy5-20181008/txt-files');%uigetdir;
 %dpy_H=('/Users/erezaei/Desktop/SU-Research/AFM_Bruker/rol-6OE/rolOE-Analysis/Mechanics-rolOE-20190728/rolOE-DMT/rolOE_DMT_Filtered');
-N2_H=('/Users/erezaei/Desktop/SU-Research/AFM_Bruker/N2-AUG2018/Analysis-N2-20181008/txt-files');%uigetdir;
-rol_H=('/Users/erezaei/Desktop/SU-Research/AFM_Bruker/rol-6/Analysis-rol6-20181008/txt-files');%uigetdir;
-for Strain=1:3
+N2_H=('/Users/erezaei/Desktop/SU-Research/AFM_Bruker/Previous/N2-AUG2018/Analysis-N2-20181008/txt-files');%uigetdir;
+rol_H=('/Users/erezaei/Desktop/SU-Research/AFM_Bruker/Previous/rol-6/Analysis-rol6-20181008/txt-files');%uigetdir;
+for Strain=1:1
     if Strain==1
         raw_data=dpy;
         raw_data_H=dpy_H;
